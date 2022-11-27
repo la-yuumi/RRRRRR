@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style type='text/css'>
+        .center {
+            margin: auto;
+            width: 70%;
+        }
+        .pic {
+            width: 24%;
+            height: 50%;
+        }
+    </style>
+	<meta charset="UTF-8">
+	<title>sus</title>
+    <script>
+        function tarot(){
+            window.location.href = "tarot.html";
+        }
+        function star(){
+            window.location.href = "star.html";
+        }
+        function chang(){
+            window.location.href = "chang.html";
+        }
+        function bird(){
+            window.location.href = "bird.html";
+        }
+    </script>
+</head>
+<body bgcolor="#10002B">
+    <div id="show" class="center">
+        <form action="#">
+            <img src="star_0.png" onclick="star()" class="pic"/>
+            <img src="tarot_0.png" onclick="tarot()" class="pic"/>
+            <img src="chang_0.png" onclick="chang()" class="pic"/>
+            <img src="bird_0.png" onclick="bird()" class="pic"/>
+        </form>
+    </div>
+</body>
+</html>
